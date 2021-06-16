@@ -1,0 +1,54 @@
+---
+title: "GF0604 Procesamiento de datos geográficos 2021-I. Tarea 03"
+author: 
+- name: Manuel Vargas
+  url: https://github.com/mfvargas
+  affiliation: Universidad de Costa Rica
+  affiliation_url: https://www.ucr.ac.cr/
+- name: Christian Birkel
+  affiliation: Universidad de Costa Rica
+  affiliation_url: https://www.ucr.ac.cr/
+description: |
+  Curso GF0604 Procesamiento de datos geográficos. Escuela de Geografía, Universidad de Costa Rica. Primer ciclo lectivo 2021. Tarea 03.
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+
+### Fecha de entrega y entregables
+La fecha y hora límite para la entrega de esta tarea es el **lunes 28 de junio de 2021 a las 07:00 a.m.**.
+
+Debe escribir un documento R Markdown y publicarlo como una página web (HTML) en GitHub Pages con los contenidos que se especifican seguidamente. Entregue su tarea a través de la plataforma Mediación Virtual, proporcionando la dirección su página web.
+
+### Objetivos
+Al finalizar esta tarea, el estudiante será capaz de:
+
+1. Realizar operaciones de datos de atributos y datos espaciales en R.
+2. Visualizar los resultados como tablas, gráficos y mapas.
+3. Publicar los resultados como páginas web en GitHub Pages generadas a partir de documentos R Markdown.
+
+
+### Desarrollo
+Para los siguientes ejercicios, utilice el conjunto de datos sobre especies de primates de Costa Rica disponible en [https://raw.githubusercontent.com/gf0604-procesamientodatosgeograficos/2021i-datos/main/gbif/primates-cr-registros.csv](https://raw.githubusercontent.com/gf0604-procesamientodatosgeograficos/2021i-datos/main/gbif/primates-cr-registros.csv). Puede utilizar cualquier otro conjunto de los empleados en clase (provincias, cantones, WorldClim, etc.).
+
+
+1. (10%) Con el paquete DT, genere una tabla que muestre para cada registro: familia, especie, provincia, cantón y fecha. Los nombres de las columnas y los controles de la interfaz deben mostrarse en español.
+
+2. (30%) Con el paquete Plotly, genere un gráfico de pastel que muestre la cantidad de registros para cada una de las especies y el porcentaje del total que representa cada una. Los controles de la interfaz deben mostrarse en español.
+
+3. Con el paquete Leaflet, genere un mapa que muestre:
+
+a. (5%)  Al menos dos capas base (ej. OSM, Stamen, Carto, ...) y un control que permita activar y desactivar cada una de las capas del mapa.  
+b. (25%) Una capa de puntos para cada una de las especies y una ventana emergente (*popup*) que muestre los mismos datos de la tabla al hacer clic en cada punto.
+d. (30%) Una capa raster de altitud (utilice la de WorldClim) con una coloración adecuada.  
+
+Organice las capas de manera que puedan visualizarse de la mejor manera posible.  

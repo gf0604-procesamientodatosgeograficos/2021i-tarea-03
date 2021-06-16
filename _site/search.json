@@ -1,0 +1,30 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-16T07:42:29-06:00"
+    },
+    {
+      "path": "index.html",
+      "title": "GF0604 Procesamiento de datos geográficos 2021-I. Tarea 01",
+      "description": "Curso GF0604 Procesamiento de datos geográficos. Escuela de Geografía, Universidad de Costa Rica. Primer ciclo lectivo 2021. Tarea 03.\n",
+      "author": [
+        {
+          "name": "Manuel Vargas",
+          "url": "https://github.com/mfvargas"
+        },
+        {
+          "name": "Christian Birkel",
+          "url": {}
+        }
+      ],
+      "contents": "\r\nFecha de entrega y entregables\r\nLa fecha y hora límite para la entrega de esta tarea es el lunes 29 de junio de 2021 a las 07:00.\r\nDebe escribir un documento R Markdown y publicarlo como una página web (HTML) en GitHub Pages con los contenidos que se especifican seguidamente. Entregue su tarea a través de la plataforma Mediación Virtual, proporcionando la dirección a su página web.\r\nObjetivos\r\nAl finalizar esta tarea, el estudiante será capaz de:\r\nRealizar operaciones de datos de atributos y datos espaciales.\r\nVisualizar los resultados como tablas, gráficos y mapas.\r\nPublicar los resultados como páginas web en GitHub Pages.\r\nDesarrollo\r\nPara los siguientes ejercicios, utilice el conjunto de datos sobre especies de primates de Costa Rica disponible en https://raw.githubusercontent.com/gf0604-procesamientodatosgeograficos/2021i-datos/main/gbif/primates-cr-registros.csv.\r\n(10%) Con el paquete DT, genere una tabla que muestre para cada registro:\r\nEl nombre de la familia.\r\nEl nombre de la especie.\r\nEl nombre de la provincia.\r\nEl nombre del cantón.\r\nLa fecha.\r\nLos nombres de las columnas y los controles de la interfaz deben mostrarse en español.\r\n(20%) Con el paquete Plotly, genere un gráfico de pastel que muestre la cantidad de registros para cada una de las especies y el porcentaje del total que representa cada una. Los controles de la interfaz deben mostrarse en español.\r\nCon el paquete Leaflet, genere un mapa que muestre:\r\n(5%) Al menos dos capas base (ej. OSM, Stamen, Carto, …).\r\n(20%) Una capa de puntos para cada una de las especies.\r\n(20%) Una capa raster de altitud.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-06-16T08:16:25-06:00"
+    }
+  ],
+  "collections": []
+}
